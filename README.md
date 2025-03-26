@@ -4,6 +4,12 @@ A modern Chrome extension that lets you manage, edit, and inject custom scripts 
 
 ---
 
+## ‼️ WARNING
+
+Due to recent updates in Chrome's security policies, scripts can no longer be injected into pages. This extension now serves as a demonstration of modern technologies used in Chrome Extension development.
+
+---
+
 ## ✨ Features
 
 - ✅ Enable or disable custom scripts per domain
@@ -26,6 +32,7 @@ A modern Chrome extension that lets you manage, edit, and inject custom scripts 
 | `chrome.storage`| Script persistence               |
 | React Router    | Navigation (e.g., edit by ID)    |
 | ESLint + Stylelint | Code quality & formatting     |
+| Redux           | Scripts usage across the app     |
 ---
 
 ## 🚀 Getting Started
