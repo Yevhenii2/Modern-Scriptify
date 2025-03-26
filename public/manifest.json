@@ -1,0 +1,32 @@
+{
+	"name": "Scriptify",
+	"version": "0.5",
+	"manifest_version": 3,
+	"content_scripts": [
+		{
+			"matches": [
+				"<all_urls>"
+			],
+			"js": [
+				"./content.js"
+			]
+		}
+	],
+	"background": {
+		"service_worker": "./background.js"
+	},
+	"action": {
+		"default_popup": "./index.html",
+		"default_title": "Scriptify"
+	},
+	"permissions": [
+		"storage",
+		"activeTab",
+		"tabs"
+	],
+	"icons": {
+		"16": "icons/scriptify16.png",
+		"48": "icons/scriptify48.png",
+		"128": "icons/scriptify128.png"
+	}
+}

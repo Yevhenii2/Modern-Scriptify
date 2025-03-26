@@ -1,0 +1,34 @@
+body {
+    width: 350px;
+}
+
+.main-page-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centered-button {
+    display: inline-block;
+    padding: 12px 20px; 
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px; 
+    text-decoration: none; 
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 6px rgb(0 0 0 / 10%);
+    margin-bottom: 0.5em;
+  }
+  
+  .centered-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  .centered-button:active {
+    background-color: #004085;
+    transform: translateY(0);
+  }
